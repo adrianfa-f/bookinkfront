@@ -31,7 +31,7 @@ const Blog = () => {
                     <RevealOnScroll delay={100}>
                         <div className="text-center mb-16">
                             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                                Inspiración y Consejos
+                                Inspiración Consejos
                             </h1>
                             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                                 Descubre las últimas tendencias en organización y cuidado de agendas
