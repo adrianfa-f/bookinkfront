@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://bookinkback.onrender.com',
+    baseURL: 'https://bookinkback.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {
