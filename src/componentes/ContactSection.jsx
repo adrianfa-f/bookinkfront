@@ -21,7 +21,7 @@ const ContactSection = () => {
                         </a>
                         
                         <a 
-                            href="https://instagram.com/booink96"
+                            href="https://instagram.com/bookink96"
                             className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 py-3 rounded-full flex items-center justify-center hover:opacity-90 transition-opacity"
                         >
                             <FaInstagram className="mr-2 text-xl" />
