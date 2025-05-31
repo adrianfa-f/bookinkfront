@@ -17,7 +17,7 @@ const Header = () => {
     }, [location]);
 
     return (
-        <header className="bg-white w-full fixed top-0 shadow-lg">
+        <header className="bg-white w-full fixed top-0 shadow-lg z-50">
             <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
                 <Link to="/" className="text-2xl font-bold flex items-center">
                     <img 
@@ -40,7 +40,7 @@ const Header = () => {
                     </div>
                     
                     <a 
-                        href="https://wa.me/+5355879391" 
+                        href="https://wa.me/+5353247364" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="ml-4 bg-green-500 text-white px-5 py-2.5 rounded-full flex items-center hover:bg-green-600 transition-colors"
@@ -82,7 +82,7 @@ const Header = () => {
                             </Link>
 
                             <a
-                                href="https://wa.me/+5355879391"
+                                href="https://wa.me/+5353247364"
                                 className="block mx-4 mt-4 bg-green-500 text-white text-center py-3 px-6 rounded-full hover:bg-green-600 transition-colors"
                                 onClick={() => setIsMenuOpen(false)} // Solo necesario para enlaces externos
                             >

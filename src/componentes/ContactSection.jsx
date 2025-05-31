@@ -13,7 +13,7 @@ const ContactSection = () => {
                     
                     <div className="flex flex-col sm:flex-row justify-center gap-6 mb-8">
                         <a 
-                            href="https://wa.me/+5355879391"
+                            href="https://wa.me/+5353247364"
                             className="bg-green-500 text-white px-8 py-3 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors"
                         >
                             <FaWhatsapp className="mr-2 text-xl" />
@@ -21,7 +21,7 @@ const ContactSection = () => {
                         </a>
                         
                         <a 
-                            href="https://instagram.com/tu_perfil"
+                            href="https://instagram.com/booink96"
                             className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 py-3 rounded-full flex items-center justify-center hover:opacity-90 transition-opacity"
                         >
                             <FaInstagram className="mr-2 text-xl" />

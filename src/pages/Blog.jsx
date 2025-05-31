@@ -26,7 +26,7 @@ const Blog = () => {
                 keywords="blog agendas, organización personal, tips productividad, cuidado cuero"
             />
 
-            <div className="bg-gradient-to-b from-purple-50 to-white py-16">
+            <div className="bg-gradient-to-b mt-10 from-purple-50 to-white py-16">
                 <div className="container mx-auto px-4">
                     <RevealOnScroll delay={100}>
                         <div className="text-center mb-16">

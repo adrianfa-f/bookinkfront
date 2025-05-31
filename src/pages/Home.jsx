@@ -8,7 +8,7 @@ const Home = () => {
     
     return (
         
-        <div>
+        <div className='mt-10'>
             <SEO 
                 title="Bookink | Agendas Persoalizadas"
                 description="Cear agendas personalizadas con tus gustos."

@@ -28,7 +28,7 @@ const TapaDura = () => {
                 keywords="agendas tapa dura, personalización, cuero genuino, agendas premium"
             />
 
-            <div className="bg-gradient-to-b from-purple-50 to-white py-16">
+            <div className="bg-gradient-to-b from-purple-50 mt-10 to-white py-16">
                 <div className="container mx-auto px-4">
                     <RevealOnScroll>
                         <div className="text-center mb-16">

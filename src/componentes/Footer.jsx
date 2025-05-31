@@ -19,7 +19,7 @@ const Footer = () => {
                                 <FaEnvelope className="mr-2" />
                                 Email
                             </a>
-                            <a href="https://wa.me/+5355879391" className="flex items-center hover:text-purple-400">
+                            <a href="https://wa.me/+5353247364" className="flex items-center hover:text-purple-400">
                                 <FaWhatsapp className="mr-2" />
                                 WhatsApp
                             </a>
@@ -30,7 +30,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-bold text-white mb-4">Redes Sociales</h4>
                         <div className="flex space-x-4">
-                            <a href="https://instagram.com/tu_perfil" className="hover:text-purple-400">
+                            <a href="https://instagram.com/bookink96" className="hover:text-purple-400">
                                 <FaInstagram size={24} />
                             </a>
                             <a href="https://facebook.com/tu_perfil" className="hover:text-purple-400">
