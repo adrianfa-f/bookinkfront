@@ -21,7 +21,7 @@ const Dashboard = () => {
                     
                     {/* Pantalla de bienvenida */}
                     {location.pathname === '/admin/dashboard' && (
-                        <div className="bg-white rounded-lg shadow-sm p-6 md:p-8 text-center">
+                        <div className="bg-white rounded-lg mt-20 shadow-sm p-6 md:p-8 text-center">
                             <h1 className="text-2xl md:text-3xl font-bold mb-4">¡Bienvenido al Panel!</h1>
                             <p className="text-gray-600">Selecciona una sección del menú para comenzar</p>
                         </div>

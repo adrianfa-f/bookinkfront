@@ -72,7 +72,7 @@ const HeroSection = () => {
                         ¿Necesitas ayuda para elegir? ¡Escríbenos!
                     </p>
                     <a 
-                        href="https://wa.me/+5355879391" 
+                        href="https://wa.me/+5353247364" 
                         className="inline-flex items-center bg-green-500 text-white px-8 py-3 rounded-full hover:bg-green-600 transition-colors"
                     >
                         <FaWhatsapp className="mr-2" />

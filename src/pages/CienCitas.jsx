@@ -27,7 +27,7 @@ const CienCitas = () => {
                 keywords="agenda parejas, regalo romántico, citas en pareja, ideas románticas"
             />
 
-            <div className="bg-gradient-to-b from-purple-50 to-white py-16">
+            <div className="bg-gradient-to-b mt-10 from-purple-50 to-white py-16">
                 <div className="container mx-auto px-4">
                     <RevealOnScroll>
                         <div className="text-center mb-16">
