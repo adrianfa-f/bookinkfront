@@ -4,6 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 import { useState, useRef, useEffect } from 'react';
 import { useClickOutside } from '../hooks/useClickOutside';
 import Logo from '../assets/IMG-20240824-WA0000.jpg'
+import RevealOnScroll from './RevealOnScroll';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,12 +32,24 @@ const Header = () => {
                 {/* Menú Desktop */}
                 <div className="hidden md:flex items-center space-x-8">
                     <div className="flex space-x-6">
-                        <Link to="/" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Inicio</Link>
-                        <Link to="/tapa-dura" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Tapa Dura</Link>
-                        <Link to="/tapa-blanda" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Tapa Blanda</Link>
-                        <Link to="/100-citas" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">100 Citas</Link>
-                        <Link to="/servicios" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Servicios</Link>
-                        <Link to="/blog" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Blog</Link>
+                        <RevealOnScroll delay={50}>
+                            <Link to="/" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Inicio</Link>
+                        </RevealOnScroll>
+                        <RevealOnScroll delay={100}>
+                            <Link to="/tapa-dura" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Tapa Dura</Link>
+                        </RevealOnScroll>
+                        <RevealOnScroll delay={150}>
+                            <Link to="/tapa-blanda" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Tapa Blanda</Link>
+                        </RevealOnScroll>
+                        <RevealOnScroll delay={200}>
+                            <Link to="/100-citas" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">100 Citas</Link>
+                        </RevealOnScroll>
+                        <RevealOnScroll delay={250}>
+                            <Link to="/servicios" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Servicios</Link>
+                        </RevealOnScroll>
+                        <RevealOnScroll delay={300}>
+                            <Link to="/blog" className="text-gray-700 hover:text-purple-600 font-medium transition-colors">Blog</Link>
+                        </RevealOnScroll>
                     </div>
                     
                     <a 
@@ -62,25 +75,38 @@ const Header = () => {
                 {isMenuOpen && (
                     <div ref={menuRef} className="fixed top-16 inset-x-0 bg-white shadow-xl md:hidden z-50">
                         <div className="p-4 space-y-2">
-                            <Link to="/" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
-                                Inicio
-                            </Link>
-                            <Link to="/tapa-dura" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
-                                Tapa Dura
-                            </Link>
-                            <Link to="/tapa-blanda" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
-                                Tapa Blanda
-                            </Link>
-                            <Link to="/100-citas" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
-                                100 Citas
-                            </Link>
-                            <Link to="/servicios" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
-                                Servicios
-                            </Link>
-                            <Link to="/blog" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
-                                Blog
-                            </Link>
+                            <RevealOnScroll delay={100}>
+                                <Link to="/" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
+                                    Inicio
+                                </Link>
+                            </RevealOnScroll>
+                            <RevealOnScroll delay={100}>
+                                <Link to="/tapa-dura" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
+                                    Tapa Dura
+                                </Link>
+                            </RevealOnScroll><RevealOnScroll delay={100}>
+                                <Link to="/tapa-blanda" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
+                                    Tapa Blanda
+                                </Link>
+                            </RevealOnScroll>
+                            <RevealOnScroll delay={100}>
 
+                            </RevealOnScroll>
+                            <RevealOnScroll delay={100}>
+                                <Link to="/100-citas" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
+                                    100 Citas
+                                </Link>
+                            </RevealOnScroll>
+                            <RevealOnScroll delay={100}>
+                                <Link to="/servicios" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
+                                    Servicios
+                                </Link>
+                            </RevealOnScroll>
+                            <RevealOnScroll delay={100}>
+                                <Link to="/blog" className="block px-4 py-3 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
+                                    Blog
+                                </Link>
+                            </RevealOnScroll>
                             <a
                                 href="https://wa.me/+5353247364"
                                 className="block mx-4 mt-4 bg-green-500 text-white text-center py-3 px-6 rounded-full hover:bg-green-600 transition-colors"
